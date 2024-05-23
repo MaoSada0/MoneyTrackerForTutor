@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/settings"
+            android:title="Настройки"
+            android:icon="@drawable/settings_icon">
+        </item>
+        <item
+            android:id="@+id/share"
+            android:title="Поделиться"
+            android:icon="@drawable/share_icon">
+        </item>
+        <item
+            android:id="@+id/info"
+            android:title="О нас"
+            android:icon="@drawable/info_icon">
+        </item>
+        <item
+            android:id="@+id/logOut"
+            android:title="Выйти"
+            android:icon="@drawable/logout_icon">
+        </item>
+    </group>
+
+
+</menu>

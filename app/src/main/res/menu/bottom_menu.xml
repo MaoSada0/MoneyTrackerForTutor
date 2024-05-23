@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/students_menu"
+        android:icon="@drawable/students_icon"
+        android:title="Ученики">
+    </item>
+
+    <item
+        android:id="@+id/view_expenses"
+        android:icon="@drawable/watch"
+        android:title="Посмотреть">
+    </item>
+    <item
+        android:id="@+id/expenses_summary"
+        android:icon="@drawable/summary"
+        android:title="Статистика">
+    </item>
+
+</menu>

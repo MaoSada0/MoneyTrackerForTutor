@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sort_by_cheap"
+        android:title="Сначала недорогие" />
+    <item
+        android:id="@+id/sort_by_expensive"
+        android:title="Сначала дорогие" />
+    <item
+        android:id="@+id/sort_by_date_late"
+        android:title="Сначала старые" />
+    <item
+        android:id="@+id/sort_by_date_new"
+        android:title="Сначала новые" />
+</menu>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="3dp"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/rv_profit_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/date_of_profit_TV"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:hint="date"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/amount_of_profit_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="amount"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_weight="1"/>
+
+
+        <TextView
+            android:id="@+id/name_of_profit_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="name"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/delete_profit_BTN"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:text="X"
+            android:textSize="8sp"
+            android:backgroundTint="#4759E6">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

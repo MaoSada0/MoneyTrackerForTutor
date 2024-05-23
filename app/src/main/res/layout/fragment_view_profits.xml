@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".trash.profit_expanse_view_fragments.ViewProfitsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_gravity="center"
+                android:id="@+id/view_profits_RV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:paddingStart="6dp"
+                android:paddingEnd="6dp"
+                android:paddingBottom="3dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
